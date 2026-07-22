@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crown & Collar | Premium Pet Shop & Boutique</title>
+  <meta name="description" content="Adoor's No. 1 premium pet shop and boutique. Redefining Pet Service since 2025.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Scroll to Top Floating Button -->
+  <button class="scroll-to-top" id="ScrollToTopBtn" aria-label="Scroll to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Header Section -->
+  <header class="main-header" id="Header">
+    <div class="header-container">
+      <div class="logo-wrapper">
+        <a href="#home" class="logo-link" aria-label="Crown & Collar Home">
+          <img src="assets/logo_vertical.png" alt="Crown & Collar" class="header-logo-img">
+        </a>
+      </div>
+      
+      <!-- Navigation (visible on desktop only) -->
+      <nav class="nav-menu" id="NavMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <!-- Contact details (desktop only) -->
+      <div class="header-actions">
+        <div class="header-contact-info">
+          <span class="contact-detail-line">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+            <a href="tel:+919846621112">+91 98466 21112</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="container hero-container-grid">
+      <!-- Hero Text Column -->
+      <div class="hero-text-block">
+        <!-- Horizontal Logo layout in main title -->
+        <h1 class="hero-title-logo-container">
+          <img src="assets/logo_horizontal.png" alt="Crown & Collar" class="hero-logo-img">
+        </h1>
+        <p class="hero-subtitle">Adoor's No 1 Pet Shop</p>
+        <p class="hero-copy">Visit our shop to xperience the best care taking for your beloved companions</p>
+        
+        <div class="hero-cta-wrapper">
+          <a href="#contact" class="btn btn-primary btn-book">BOOK Appmnt</a>
+        </div>
+      </div>
+
+      <!-- Standout Feature: Interactive Paw Carousel (5 Images queue) -->
+      <div class="hero-carousel-block">
+        <div class="paw-carousel-wrapper">
+          <div class="paw-carousel" id="PawCarousel">
+            
+            <!-- Slide Slot 0 (Palm) -->
+            <div class="paw-card slot-palm" id="PawCard0">
+              <img src="assets/hero_dog.png" alt="Signature Grooming">
+            </div>
+            
+            <!-- Slide Slot 1 (Toe 1) -->
+            <div class="paw-card slot-toe1" id="PawCard1">
+              <img src="assets/hero_cat.png" alt="Veterinary Clinic">
+            </div>
+            
+            <!-- Slide Slot 2 (Toe 2) -->
+            <div class="paw-card slot-toe2" id="PawCard2">
+              <img src="assets/team_stylist.png" alt="Boutique Products">
+            </div>
+            
+            <!-- Slide Slot 3 (Toe 3) -->
+            <div class="paw-card slot-toe3" id="PawCard3">
+              <img src="assets/team_vet.png" alt="Premium Collars">
+            </div>
+            
+            <!-- Slide Slot 4 (Toe 4) -->
+            <div class="paw-card slot-toe4" id="PawCard4">
+              <img src="assets/storefront.png" alt="Poodle Grooming">
+            </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="section-bg-paw watermark-top-left"></div>
+    <div class="container">
+      <div class="section-center-header">
+        <div class="section-header-tag">Our Packages</div>
+        <h2 class="section-title">Grooming Packages</h2>
+        <div class="divider-line center"></div>
+      </div>
+
+      <div class="numbered-services-flow">
+        <!-- Item 1 -->
+        <div class="numbered-service-item">
+          <span class="service-number">1</span>
+          <div class="service-img-wrapper">
+            <img src="assets/hero_dog.png" alt="Basic Grooming" class="service-thumb-img">
+          </div>
+          <h3 class="service-title-text">Basic Grooming</h3>
+          <p class="service-desc-text">Essential maintenance including refreshing bath, hair drying, nail clipping, and gentle ear cleaning.</p>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="numbered-service-item">
+          <span class="service-number">2</span>
+          <div class="service-img-wrapper">
+            <img src="assets/team_stylist.png" alt="Basic + Hygiene Cut" class="service-thumb-img">
+          </div>
+          <h3 class="service-title-text">Basic + Hygiene Cut</h3>
+          <p class="service-desc-text">Comprehensive care adding sanitary area trimming and precise paw pad shaping to the basic routine.</p>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="numbered-service-item">
+          <span class="service-number">3</span>
+          <div class="service-img-wrapper">
+            <img src="assets/hero_cat.png" alt="Full Grooming" class="service-thumb-img">
+          </div>
+          <h3 class="service-title-text">Full Grooming</h3>
+          <p class="service-desc-text">The premium experience including styling haircut, full deshedding treatment, nail clipping, and deep ear sanitization.</p>
+        </div>
+      </div>
+
+      <!-- Features summary below -->
+      <div class="features-summary-banner">
+        <div class="features-label">Our Features</div>
+        <div class="features-list-pills">
+          <span class="feature-pill">Nail Clipping</span>
+          <span class="feature-pill">Ear Cleaning</span>
+          <span class="feature-pill">Deshedding</span>
+          <span class="feature-pill">Shaping</span>
+          <span class="feature-pill">Sanitary Area Hair Trimming</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-center-header">
+        <div class="section-header-tag">Services Program</div>
+        <h2 class="section-title">Our Services</h2>
+        <div class="divider-line center"></div>
+      </div>
+
+      <!-- Horizontally scrolling marquee row of 4 cards -->
+      <div class="services-carousel-wrapper">
+        <div class="services-row" id="ServicesRow">
+          <!-- Card 1 -->
+          <div class="service-card paw-shape">
+            <div class="card-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 18V10C4 8.89543 4.89543 8 6 8H18C19.1046 8 20 8.89543 20 10V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18Z" stroke="#C8B195" stroke-width="2"/>
+                <circle cx="10" cy="14" r="2" fill="#C8B195"/>
+                <circle cx="14" cy="14" r="2" fill="#C8B195"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Signature Grooming</h3>
+            <ul class="card-bullet-points">
+              <li>Scissor breed cuts</li>
+              <li>Therapeutic warm spa</li>
+              <li>Anti-tick treatments</li>
+            </ul>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="service-card paw-shape">
+            <div class="card-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 10.5V20H5V4H13.5" stroke="#C8B195" stroke-width="2"/>
+                <path d="M12 9V15M9 12H15" stroke="#C8B195" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Veterinary Clinic</h3>
+            <ul class="card-bullet-points">
+              <li>Routine wellness check</li>
+              <li>Clinical diagnostics</li>
+              <li>Vaccination scheduling</li>
+            </ul>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="service-card paw-shape">
+            <div class="card-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="5" y="10" width="14" height="10" rx="1" stroke="#C8B195" stroke-width="2"/>
+                <line x1="5" y1="15" x2="19" y2="15" stroke="#C8B195" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Artisanal Bakery</h3>
+            <ul class="card-bullet-points">
+              <li>Custom birthday cakes</li>
+              <li>Gluten-free biscuits</li>
+              <li>Vet-approved ingredients</li>
+            </ul>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="service-card paw-shape">
+            <div class="card-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="6" width="16" height="6" rx="2" stroke="#C8B195" stroke-width="2"/>
+                <circle cx="12" cy="12" r="3" fill="#C8B195"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Luxury Store</h3>
+            <ul class="card-bullet-points">
+              <li>Leather brass collars</li>
+              <li>Orthopaedic pet beds</li>
+              <li>Imported fashion apparel</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- View All Services link -->
+      <div class="services-footer">
+        <a href="services.html" class="btn btn-outline-dark" id="ViewAllServicesBtn">View all &gt;&gt;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Team & Gallery Section -->
+  <section class="team-gallery-section" id="team">
+    <div class="section-bg-paw watermark-bottom-right"></div>
+    <div class="container">
+      
+      <!-- Our Team Sub-section -->
+      <div class="team-subsection">
+        <div class="section-center-header">
+          <div class="section-header-tag">Our Specialists</div>
+          <h2 class="section-title">Team Behind</h2>
+          <div class="divider-line center"></div>
+        </div>
+
+        <div class="team-grid">
+          <!-- Team Member 1 -->
+          <div class="team-card">
+            <div class="team-image-box">
+              <img src="assets/team_stylist.png" alt="Joe Doe" class="team-img" loading="lazy">
+            </div>
+            <div class="team-info">
+              <h3 class="team-member-name">Joe Doe</h3>
+              <p class="team-member-role">Founder &amp; CEO</p>
+              <ul class="team-spec-list">
+                <li>Professional Stylist</li>
+                <li>10+ Years Care Exp</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="team-card">
+            <div class="team-image-box">
+              <img src="assets/team_vet.png" alt="Jane Doe" class="team-img" loading="lazy">
+            </div>
+            <div class="team-info">
+              <h3 class="team-member-name">Jane Doe</h3>
+              <p class="team-member-role">Veterinarian</p>
+              <ul class="team-spec-list">
+                <li>BVS &amp; AH Consultant</li>
+                <li>Health &amp; Diet Auditor</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="team-card">
+            <div class="team-image-box">
+              <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400" alt="Sam Smith" class="team-img" loading="lazy">
+            </div>
+            <div class="team-info">
+              <h3 class="team-member-name">Sam Smith</h3>
+              <p class="team-member-role">Store Manager</p>
+              <ul class="team-spec-list">
+                <li>Luxury Catalog Curator</li>
+                <li>Customer Care Lead</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gallery Sub-section -->
+      <div class="gallery-subsection" id="gallery">
+        <div class="section-center-header">
+          <div class="section-header-tag">Boutique Portfolio</div>
+          <h2 class="section-title">Gallery</h2>
+          <div class="divider-line center"></div>
+        </div>
+
+        <!-- Sleek Photo Row (4 columns) -->
+        <div class="gallery-row-flex" id="GalleryGrid">
+          <div class="gallery-item-col" data-index="0">
+            <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&q=80&w=600" alt="Bespoke Poodle Trim" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-title">Grooming Cut</h4>
+            </div>
+          </div>
+          <div class="gallery-item-col" data-index="1">
+            <img src="https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&q=80&w=600" alt="Organic Cake" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-title">Bakery Treat</h4>
+            </div>
+          </div>
+          <div class="gallery-item-col" data-index="2">
+            <img src="assets/hero_cat.png" alt="Ragdoll Cat Spa" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-title">Cat Session</h4>
+            </div>
+          </div>
+          <div class="gallery-item-col" data-index="3">
+            <img src="https://images.unsplash.com/photo-1608454367599-c1139e64f7b0?auto=format&fit=crop&q=80&w=600" alt="Premium collar styling" class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-title">Leather Collar</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-footer">
+          <button class="btn btn-outline-dark" id="GalleryViewBtn">View &gt;&gt;</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="GalleryLightbox" aria-hidden="true" role="dialog">
+    <button class="lightbox-close" id="LightboxCloseBtn" aria-label="Close Lightbox">&times;</button>
+    <button class="lightbox-arrow prev" id="LightboxPrevBtn" aria-label="Previous Image">&#10094;</button>
+    <div class="lightbox-content">
+      <img src="" alt="" class="lightbox-img" id="LightboxImg">
+      <div class="lightbox-caption" id="LightboxCaption">Image Details</div>
+    </div>
+    <button class="lightbox-arrow next" id="LightboxNextBtn" aria-label="Next Image">&#10095;</button>
+  </div>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- Column 1: Locate Us -->
+        <div class="contact-details-box">
+          <div class="section-header-tag">Information</div>
+          <h2 class="section-title">Locate Us</h2>
+          <div class="divider-line"></div>
+          
+          <div class="details-list">
+            <div class="detail-item">
+              <div class="detail-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+              </div>
+              <div class="detail-content">
+                <h4 class="detail-title">Our Address</h4>
+                <p class="detail-val">Vrindavan Towers, MC Rd, near Armed Forces Head Quarters, Vadakkadathukavu, Adoor, Kerala 691526</p>
+              </div>
+            </div>
+            
+
+            <div class="detail-item">
+              <div class="detail-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                </svg>
+              </div>
+              <div class="detail-content">
+                <h4 class="detail-title">Phone Number</h4>
+                <p class="detail-val"><a href="tel:+919846621112">+91 98466 21112</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Embedded Map (Exact Location) -->
+          <div class="map-embed-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.0895862557936!2d76.7374988!3d9.1319073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0613df3d2eb167%3A0xf0cff84eab699d53!2sCrown%20N%20Collar%20Pet%20Store%20%26%20Grooming%20Adoor!5e1!3m2!1sen!2sin!4v1784201656448!5m2!1sen!2sin" 
+              width="100%" 
+              height="320" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="strict-origin-when-cross-origin"
+              title="Crown &amp; Collar Adoor Location Map">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Column 2: Reach Out -->
+        <div class="contact-form-box">
+          <div class="section-header-tag">Inquiry Form</div>
+          <h2 class="section-title">Reach Out</h2>
+          <div class="divider-line"></div>
+          
+          <form class="actual-form" id="ContactForm" name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="your.email@domain.com">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Describe your request..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-block submit-btn" id="ContactFormSubmit">
+              <span>Send</span>
+              <svg class="send-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+              </svg>
+            </button>
+          </form>
+          <div class="form-toast-success" id="FormSuccessToast">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <div>
+              <strong>Message Sent</strong>
+              <p>We will contact you shortly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="main-footer">
+    <div class="container">
+
+      <!-- Top Row: Quick Links | Brand + Socials -->
+      <div class="footer-top">
+
+        <div class="footer-quick-links">
+          <span class="footer-section-label">Quick Links</span>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-brand-block">
+          <span class="footer-logo-text">Crown &amp; Collar</span>
+          <span class="footer-tagline">Adoor's No. 1 Pet Shop</span>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/crown_n_collar_official/" target="_blank" aria-label="Instagram" class="social-icon">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+            </a>
+            <a href="https://wa.me/919846621112" target="_blank" aria-label="WhatsApp" class="social-icon">
+              <svg width="17" height="17" viewBox="0 0 448 512" fill="currentColor"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3 18.7-68.1-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61587405965671" target="_blank" aria-label="Facebook" class="social-icon">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <p class="copyright-txt">&copy; 2026 Crown &amp; Collar. All rights reserved.</p>
+        <ul class="bottom-links">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="tnc.html">Terms &amp; Conditions</a></li>
+          <li><a href="sitemap.xml">Site Map</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
