@@ -27,11 +27,11 @@
   <header class="main-header" id="Header">
     <div class="header-container">
       <div class="logo-wrapper">
-        <a href="#home" class="logo-link" aria-label="Crown & Collar Home">
-          <img src="assets/logo_vertical.png" alt="Crown & Collar" class="header-logo-img">
+        <a href="#home" class="logo-link" aria-label="Crown &amp; Collar Home">
+          <img src="assets/logo_vertical.png" alt="Crown &amp; Collar" class="header-logo-img">
         </a>
       </div>
-      
+
       <!-- Navigation (visible on desktop only) -->
       <nav class="nav-menu" id="NavMenu">
         <ul class="nav-list">
@@ -43,7 +43,7 @@
         </ul>
       </nav>
 
-      <!-- Contact details (desktop only) -->
+      <!-- CTA + Contact -->
       <div class="header-actions">
         <div class="header-contact-info">
           <span class="contact-detail-line">
@@ -53,6 +53,7 @@
             <a href="tel:+919846621112">+91 98466 21112</a>
           </span>
         </div>
+        <a href="#contact" class="btn-header-cta" id="HeaderCtaBtn">Book Now</a>
       </div>
     </div>
   </header>
@@ -170,86 +171,70 @@
 
   <!-- Services Section -->
   <section class="services-section" id="services">
-    <div class="container">
-      <div class="section-center-header">
-        <div class="section-header-tag">Services Program</div>
-        <h2 class="section-title">Our Services</h2>
-        <div class="divider-line center"></div>
+    <div class="services-header-band">
+      <div class="container">
+        <span class="services-eyebrow">What We Offer</span>
+        <h2 class="services-main-title">Our Services</h2>
       </div>
+    </div>
 
-      <!-- Horizontally scrolling marquee row of 4 cards -->
-      <div class="services-carousel-wrapper">
-        <div class="services-row" id="ServicesRow">
-          <!-- Card 1 -->
-          <div class="service-card paw-shape">
-            <div class="card-icon-box">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 18V10C4 8.89543 4.89543 8 6 8H18C19.1046 8 20 8.89543 20 10V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18Z" stroke="#C8B195" stroke-width="2"/>
-                <circle cx="10" cy="14" r="2" fill="#C8B195"/>
-                <circle cx="14" cy="14" r="2" fill="#C8B195"/>
-              </svg>
-            </div>
-            <h3 class="service-card-title">Signature Grooming</h3>
-            <ul class="card-bullet-points">
-              <li>Scissor breed cuts</li>
-              <li>Therapeutic warm spa</li>
-              <li>Anti-tick treatments</li>
+    <div class="services-grid-block">
+      <div class="container">
+        <div class="services-4-grid">
+
+          <!-- 01 -->
+          <div class="svc-card">
+            <span class="svc-num">01</span>
+            <h3 class="svc-title">Signature Grooming</h3>
+            <p class="svc-desc">Scissor breed cuts, therapeutic warm spa & anti-tick treatments. Full coat styling by trained groomers.</p>
+            <ul class="svc-tags">
+              <li>Breed Cuts</li>
+              <li>Warm Spa</li>
+              <li>Anti-Tick</li>
             </ul>
           </div>
 
-          <!-- Card 2 -->
-          <div class="service-card paw-shape">
-            <div class="card-icon-box">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19 10.5V20H5V4H13.5" stroke="#C8B195" stroke-width="2"/>
-                <path d="M12 9V15M9 12H15" stroke="#C8B195" stroke-width="2"/>
-              </svg>
-            </div>
-            <h3 class="service-card-title">Veterinary Clinic</h3>
-            <ul class="card-bullet-points">
-              <li>Routine wellness check</li>
-              <li>Clinical diagnostics</li>
-              <li>Vaccination scheduling</li>
+          <!-- 02 -->
+          <div class="svc-card">
+            <span class="svc-num">02</span>
+            <h3 class="svc-title">Veterinary Clinic</h3>
+            <p class="svc-desc">Routine wellness checks, clinical diagnostics, and full vaccination scheduling by certified vets.</p>
+            <ul class="svc-tags">
+              <li>Wellness Check</li>
+              <li>Diagnostics</li>
+              <li>Vaccinations</li>
             </ul>
           </div>
 
-          <!-- Card 3 -->
-          <div class="service-card paw-shape">
-            <div class="card-icon-box">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="5" y="10" width="14" height="10" rx="1" stroke="#C8B195" stroke-width="2"/>
-                <line x1="5" y1="15" x2="19" y2="15" stroke="#C8B195" stroke-width="2"/>
-              </svg>
-            </div>
-            <h3 class="service-card-title">Artisanal Bakery</h3>
-            <ul class="card-bullet-points">
-              <li>Custom birthday cakes</li>
-              <li>Gluten-free biscuits</li>
-              <li>Vet-approved ingredients</li>
+          <!-- 03 -->
+          <div class="svc-card">
+            <span class="svc-num">03</span>
+            <h3 class="svc-title">Artisanal Bakery</h3>
+            <p class="svc-desc">Custom birthday cakes, gluten-free biscuits, and vet-approved treats baked fresh in-store daily.</p>
+            <ul class="svc-tags">
+              <li>Birthday Cakes</li>
+              <li>Gluten-Free</li>
+              <li>Vet-Approved</li>
             </ul>
           </div>
 
-          <!-- Card 4 -->
-          <div class="service-card paw-shape">
-            <div class="card-icon-box">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="4" y="6" width="16" height="6" rx="2" stroke="#C8B195" stroke-width="2"/>
-                <circle cx="12" cy="12" r="3" fill="#C8B195"/>
-              </svg>
-            </div>
-            <h3 class="service-card-title">Luxury Store</h3>
-            <ul class="card-bullet-points">
-              <li>Leather brass collars</li>
-              <li>Orthopaedic pet beds</li>
-              <li>Imported fashion apparel</li>
+          <!-- 04 -->
+          <div class="svc-card">
+            <span class="svc-num">04</span>
+            <h3 class="svc-title">Luxury Store</h3>
+            <p class="svc-desc">Leather brass collars, orthopaedic pet beds, and imported fashion apparel — all under one roof.</p>
+            <ul class="svc-tags">
+              <li>Collars</li>
+              <li>Pet Beds</li>
+              <li>Apparel</li>
             </ul>
           </div>
+
         </div>
-      </div>
 
-      <!-- View All Services link -->
-      <div class="services-footer">
-        <a href="services.html" class="btn btn-outline-dark" id="ViewAllServicesBtn">View all &gt;&gt;</a>
+        <div class="services-footer">
+          <a href="services.html" class="btn btn-primary" id="ViewAllServicesBtn">View Full Catalog &rarr;</a>
+        </div>
       </div>
     </div>
   </section>
@@ -468,12 +453,12 @@
   </section>
 
   <!-- Footer Section -->
-  <footer class="main-footer">
+      <footer class="main-footer">
     <div class="container">
 
-      <!-- Top Row: Quick Links | Brand + Socials -->
       <div class="footer-top">
 
+        <!-- Col 1: Quick Links -->
         <div class="footer-quick-links">
           <span class="footer-section-label">Quick Links</span>
           <ul class="footer-links">
@@ -486,9 +471,17 @@
           </ul>
         </div>
 
+        <!-- Col 2: Brand + Get In Touch + Address + Socials -->
         <div class="footer-brand-block">
-          <span class="footer-logo-text">Crown &amp; Collar</span>
-          <span class="footer-tagline">Adoor's No. 1 Pet Shop</span>
+          <img src="assets/logo_horizontal.png" alt="Crown &amp; Collar" class="footer-logo-img">
+          <span class="footer-get-in-touch-label">Get In Touch</span>
+          
+          <div class="footer-address-info">
+            <strong class="footer-store-name">Crown &amp; Collar Pet Store &amp; Grooming</strong>
+            <p class="footer-address-text">Vrindavan Towers, MC Rd, near Armed Forces Head Quarters,<br>Vadakkadathukavu, Adoor, Kerala 691526</p>
+            <p class="footer-hours-phone">Mon&ndash;Sun &nbsp;|&nbsp; 9:30 am &ndash; 7:00 pm &nbsp;&middot;&nbsp; <a href="tel:+919846621112">+91 98466 21112</a></p>
+          </div>
+
           <div class="footer-socials">
             <a href="https://www.instagram.com/crown_n_collar_official/" target="_blank" aria-label="Instagram" class="social-icon">
               <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
